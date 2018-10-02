@@ -1,9 +1,9 @@
-Run with ActiveMQ Docker container
+Run with ActiveMQ Docker container **webcenter/activemq**
 
-Start container:
-run --name='activemq' -it --rm -P webcenter/activemq:latest
+**Start container:**
+docker run --name='activemq' -it --rm -P webcenter/activemq:latest
 
-Show ActiveMQ dashboard:
+**Show ActiveMQ dashboard:**
 http://localhost:32789/admin/queues.jsp
 
 username: admin, password: admin
